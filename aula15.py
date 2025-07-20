@@ -14,15 +14,15 @@
 numero_1 = input ('Digite um número: ')
 numero_2 = input ('Digite outro número: ')
 
-# int_numero_1 = int (numero_1)
-# int_numero_2 = int (numero_2)
+int_numero_1 = int (numero_1)
+int_numero_2 = int (numero_2)
 
-# print (f'A soma dos números é {int_numero_1 + int_numero_2}')
+print (f'A soma dos números é {int_numero_1 + int_numero_2}')
 
-if numero_1.isdigit() and numero_2.isdigit():
-    print (f'A soma dos números é {int(numero_1) + int(numero_2)}')
-else:
-    print ('Você não digitou números válidos.')
+# if numero_1.isdigit() and numero_2.isdigit():
+#     print (f'A soma dos números é {int(numero_1) + int(numero_2)}')
+# else:
+#     print ('Você não digitou números válidos.')
 
 
 
