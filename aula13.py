@@ -15,3 +15,9 @@ print(linha_3)
 # Gustavo Valenca tem 1.80 de altura,
 # pesa 86.5 quilos e seu IMC é
 # 26.697530864197528
+
+# Formatação de strings
+# preco = 1234.567
+# print(f"Preço normal: {preco}")
+# print(f"Preço formatado: {preco:.2f}")       # duas casas decimais
+# print(f"Preço com vírgula: {preco:,.2f}")   # separador de milhar
