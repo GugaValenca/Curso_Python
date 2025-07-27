@@ -3,7 +3,7 @@ while True:
     numero = input("Digite um número: ")
 
     if not numero.isdigit():
-        print("Entrada inválida! Digite apenas números positivos.")
+        print("Entrada inválida! Digite apenas números.")
     else:
         numero = int(numero)
 
