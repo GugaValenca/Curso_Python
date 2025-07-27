@@ -1,5 +1,10 @@
 nome = input('Digite seu nome: ')
-tamanho_nome = len(nome)
-print(f'Seu novo nome é {nome}.')
-print(f'O seu nome tem {tamanho_nome} caracteres.')
 
+indice = 0
+novo_nome = ''
+while indice < len(nome):
+    letra = nome[indice]
+    novo_nome += letra + '*'
+    indice += 1
+
+print(novo_nome)
