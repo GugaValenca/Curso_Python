@@ -5,6 +5,8 @@ while True:
     operador = input('Digite o operador (+-/*): ')
 
     numeros_validos = None
+    num_1_float = 0
+    num_2_float = 0
 
     try:
         num_1_float = float(numero_1)
